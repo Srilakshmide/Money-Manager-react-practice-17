@@ -1,0 +1,62 @@
+.balance-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  align-items: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.display-container {
+  display: flex;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+.your-balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  color: #84cc16;
+}
+
+.your-income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  color: #06b6d4;
+}
+
+.your-expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  color: #7c3aed;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.balance-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #323f4b;
+  margin-left: 15px;
+  margin-top: 0px;
+}
